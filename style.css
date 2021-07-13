@@ -61,6 +61,10 @@ header styles start
     border-radius: 2px;
 }
 
+.linkbtn a:hover {
+    background-image: linear-gradient( #ff512f, #dd2476);
+}
+
 .linkbtn .fa-arrow-right {
     width: 24px;
     height: 24px;
@@ -73,6 +77,12 @@ header styles start
     background-image: url(./images/banner.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.banner:hover {
+    transform: rotate(360deg);
+    transition: 1.5s;
+    cursor: pointer;
 }
 
 
