@@ -8,8 +8,72 @@ Fonts
  common styles
  ------------- */
 
-body {
+* {
     padding: 0;
     margin: 0;
+}
+
+body {
     font-family: 'Poppins', sans-serif;
 }
+
+.container {}
+
+
+/* ---------------------
+header styles start
+---------------------- */
+
+.header-background {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    margin: 0 auto;
+}
+
+.header-title {
+    width: 485px;
+    height: 230px;
+}
+
+.header-title h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-bottom: 18px;
+}
+
+.linkbtn {
+    width: 168px;
+    height: 44px;
+}
+
+.linkbtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-image: linear-gradient( #ff2cc0, #bb1972);
+    padding: 10px 24px;
+    border-radius: 2px;
+}
+
+.linkbtn .fa-arrow-right {
+    width: 24px;
+    height: 24px;
+    margin-left: 7px;
+}
+
+.banner {
+    width: 556px;
+    height: 438px;
+    background-image: url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* header styles end */
