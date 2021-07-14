@@ -98,8 +98,10 @@ header styles start
  -------------------------*/
 
 .all-players {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    margin: 0 auto;
 }
 
 #special-player {
@@ -140,7 +142,7 @@ header styles start
 
 .title-h1 {
     font-size: 30px;
-    color: rgb(1, 1, 78);
+    color: rgb(0, 0, 156);
     margin-left: 20px;
 }
 
@@ -240,7 +242,7 @@ h4 a:hover {
 
 @media only screen and (max-width: 600px) {
     .header-background {
-        width: 355px;
+        width: 360px;
         height: 742px;
         flex-direction: column;
     }
@@ -252,16 +254,28 @@ h4 a:hover {
     .header-title .title {
         width: 278px;
         height: 138px;
-        margin-left: 100px;
+        margin-left: 90px;
     }
     .banner {
         width: 329px;
         height: 259.17px;
     }
     .linkbtn {
-        margin-left: 100px;
+        margin-left: 90px;
         margin-top: 50px;
         width: 168px;
         height: 44px;
+    }
+    .all-players {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .football-info {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .logo img {
+        width: 280px;
+        height: 70px;
     }
 }
