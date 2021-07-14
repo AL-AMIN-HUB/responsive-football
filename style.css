@@ -252,12 +252,28 @@ h4 a:hover {
         align-items: center;
     }
     .title h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     .banner {
         margin-top: 100px;
     }
     .all-players {
         flex-wrap: wrap;
+    }
+    .football-info {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 483.87px;
+        height: 213px;
+        margin: 0 auto;
+    }
+    .logo img {
+        width: 250px;
+        height: 110px;
     }
 }
