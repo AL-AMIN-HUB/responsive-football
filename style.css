@@ -258,10 +258,12 @@ h4 a:hover {
         margin-top: 100px;
     }
     .all-players {
+        width: 100%;
         flex-wrap: wrap;
     }
     .football-info {
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
     .footer-logo {
         display: flex;
