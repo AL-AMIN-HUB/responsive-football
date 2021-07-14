@@ -237,3 +237,31 @@ h4 a:hover {
 
 
 /* For Mobile Devices */
+
+@media only screen and (max-width: 600px) {
+    .header-background {
+        width: 355px;
+        height: 742px;
+        flex-direction: column;
+    }
+    .header-title .title h1 {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .header-title .title {
+        width: 278px;
+        height: 138px;
+        margin-left: 100px;
+    }
+    .banner {
+        width: 329px;
+        height: 259.17px;
+    }
+    .linkbtn {
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 168px;
+        height: 44px;
+    }
+}
