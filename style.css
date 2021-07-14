@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -31,8 +31,8 @@ header styles start
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 1440px;
-    height: 677px;
+    width: 100%;
+    height: 700px;
     background-color: #2D25A0;
     margin: 0 auto;
 }
@@ -44,7 +44,7 @@ header styles start
 
 .header-title h1 {
     color: white;
-    font-size: 64px;
+    font-size: 70px;
     font-weight: bold;
     line-height: 80px;
     margin-bottom: 18px;
@@ -79,7 +79,7 @@ header styles start
     height: 438px;
     background-image: url(./images/banner.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .banner:hover {
