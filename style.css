@@ -9,6 +9,7 @@ Fonts
  ------------- */
 
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -163,7 +164,7 @@ header styles start
 }
 
 .match-photo img {
-    width: 400px;
+    width: 370px;
     height: 256px;
 }
 
